@@ -2,8 +2,8 @@ const container = document.getElementById("container");
 container.addEventListener("contextmenu", (event) => event.preventDefault());
 
 var board = [];
-var totalMines = 70;
-var size = 18;
+var totalMines = 50;
+var size = 16;
 
 var tilesToOpen = size * size - 10;
 
